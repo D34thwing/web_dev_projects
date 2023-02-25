@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h3,p{
+    font-size:xx-large;
+    padding: 10px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.team1{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+
+.team2{
+    width: 50%;
+    background-color: blue;
+
+}
+ul.list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li{
+    margin:0px 10px;
+    padding: 10px;
+}
+img{
+    align-items: center;
+    padding: 10px;
+}
+button{
+    padding:5px 15px;
+    background-color:aquamarine;
+    border: none;
+}
